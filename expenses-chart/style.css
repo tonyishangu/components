@@ -1,0 +1,116 @@
+*{
+    margin: 5px;
+    padding: 1px;
+}
+body{
+    background-color: #ccc;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 30px;
+    /* margin-left: 15%; */
+}
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    width: 40%;
+    background-color: #eee;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    /* margin: 50px; */
+    /* align-items: stretch; */
+    background-color: darkorange;
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid darkorange;
+    padding: 10px;
+}
+.chart{
+    margin-top: 10px;
+    /* align-items: stretch; */
+    /* background-color: red; */
+}
+h1{
+    margin: none;
+    padding: none;
+    color: #fff;
+    font-size: 20px;
+}
+h2{
+    margin: none;
+    padding: none;
+    font-size: 20px;
+}
+p{
+    color: darkblue;
+    margin: none;
+    padding: none;
+}
+hr{
+    padding: 0;
+}
+.bar1{
+    background-color: darkorange;
+    height: 70px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bar2{
+    background-color: darkorange;
+    height: 100px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bar3{
+    background-color: darkblue;
+    height: 160px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bar4{
+    background-color: darkorange;
+    height: 80px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bar5{
+    background-color: darkorange;
+    height: 150px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bar6{
+    background-color: darkorange;
+    height: 110px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bar7{
+    background-color: darkorange;
+    height: 120px;
+    width: 40px;
+    border-radius: 5px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: baseline;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+}
