@@ -1,0 +1,77 @@
+/* .body{
+    margin: 1000px;
+} */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* margin-left: 5px; */
+}
+.links{
+    padding: 15px;
+}
+.login{
+    background-color: transparent;
+    /* width: 100px; */
+    color: black;
+    padding:  10px 24px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+.login:hover{
+    background-color: red;
+}
+.register{
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding:  10px 24px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+    /* text-align: center; */
+}
+.learn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding:  10px 24px;
+    cursor: pointer;
+}
+h1{
+    font-weight: bolder;
+    /* font-family: cursive; */
+    font-size: 50px;
+}
+p{
+    padding-bottom: 20px;
+}
+.icons{
+    /* background-color: red; */
+    padding-top: 80px;
+    align-items: center;
+}
+.icon{
+    /* padding: 5px; */
+    margin: 10px;
+    width: 60px;
+}
